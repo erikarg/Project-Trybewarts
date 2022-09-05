@@ -1,0 +1,192 @@
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  margin: -10px;
+}
+
+.trybewarts-header-logo {
+  padding: 10px;
+  width: 60px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: Times New Roman, Times, serif;
+  margin-top: 23px;
+}
+
+.login {
+  align-self: center;
+  border: 1px white;
+  border-radius: 10px;
+  display: flex;
+  font-family: Times New Roman, Times, serif;
+  height: 35px;
+  margin-right: 8px;
+  width: auto;
+}
+
+.loginButton {
+  align-self: center;
+  background-color: rgb(93, 28, 153);
+  border: 1px white;
+  border-radius: 10px;
+  color: white;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+  height: 37px;
+  width: 130px;
+}
+
+.form {
+  display: flex;
+  margin-top: 20px;
+}
+
+main {
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#evaluation-form {
+  flex-direction: column;
+  justify-content: center;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  align-items: center;
+  display: flex;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.dados {
+  border: 1px black;
+  border-radius: 10px;
+  font-family: Times New Roman, Times, serif;
+  height: 35px;
+  margin-right: 8px;
+}
+
+#house {
+  background-color: white;
+  border: 1px black;
+  border-radius: 10px;
+  font-family: Times New Roman, Times, serif;
+  height: 40px;
+  width: 283px;
+}
+
+#content-max {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#content-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#checkboxes {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 50%;
+}
+
+#label-content {
+  display: flex;
+}
+
+.checks {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: rgb(61, 60, 60);
+  bottom: 0;
+  color: white;
+  min-width: 100%;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#input-name {
+  display: inline-flex;
+  font-weight: 200;
+  height: 40px;
+  margin-top: 30px;
+  width: 322px;
+}
+
+#input-lastname {
+  display: inline-flex;
+  font-weight: 200;
+  height: 40px;
+  width: 322px;
+}
+
+#input-email {
+  display: inline-flex;
+  font-weight: 200;
+  height: 40px;
+  margin-top: 10px;
+  width: 322px;
+}
+
+hr {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 675px;
+}
+
+html {
+  background-color: rgb(238, 234, 234);
+  font-weight: 700;
+}
+
+#avaliacao {
+  margin-bottom: 18px;
+}
+
+#submit-btn {
+  background-color: rgb(93, 28, 153);
+  border-radius: 5px;
+  color: white;
+  font-family: Times New Roman, Times, serif;
+  font-size: 13px;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 50px;
+  margin-top: 12px;
+}
+
+#textarea {
+  border: 0.5px solid rgb(93, 28, 153);
+  border-radius: 5px;
+  display: flex;
+  width: 670px;
+}
+
+#counter {
+  margin-left: 645px;
+}
